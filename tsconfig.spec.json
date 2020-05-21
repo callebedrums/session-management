@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./spec",
+    "types": [
+      "node",
+      "mocha",
+      "sinon",
+      "chai"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "src/**/*.spec.ts",
+    "src/**/*.d.ts"
+  ]
+}
